@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="25" tilewidth="18" tileheight="18" infinite="0" nextlayerid="3" nextobjectid="47">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="25" tilewidth="18" tileheight="18" infinite="0" nextlayerid="4" nextobjectid="73">
  <editorsettings>
   <export target="platformer-level-1.tmj" format="json"/>
  </editorsettings>
@@ -228,11 +228,38 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,123,123,123,124,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,124,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,123,123,123,124,0,0,0,0,0,0,102,103,103,103,103,103,103,123,123,123,124,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,123,123,123,123,124,0,0,0,0,0,0,122,123,123,123,123,123,123,123,123,123,124,0,0,0,0,
-23,23,23,23,23,23,23,23,24,0,0,0,0,0,0,22,23,23,23,23,122,123,123,123,123,123,124,54,54,54,54,54,54,122,123,123,123,123,123,123,123,123,123,124,34,34,34,34,
+23,23,23,23,23,23,23,23,24,0,0,0,0,0,0,22,23,23,23,23,122,123,123,123,123,123,124,0,0,0,0,0,0,122,123,123,123,123,123,123,123,123,123,124,0,0,0,0,
 123,123,123,123,123,123,123,123,124,0,0,0,0,0,0,122,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,74,35,122,123,123,123,123,123,123,123,123,123,124,74,74,74,74,
-123,123,123,123,123,123,123,123,124,54,54,54,54,54,54,122,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,122,123,123,123,123,123,123,123,123,123,124,74,74,74,74,
+123,123,123,123,123,123,123,123,124,0,0,0,0,0,0,122,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,122,123,123,123,123,123,123,123,123,123,124,74,74,74,74,
 123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,122,123,123,123,123,123,123,123,123,123,123,124,74,74,74,74,74,74,133,134,134,134,134,134,134,134,134,134,135,74,74,74,74,
 123,123,123,123,123,123,123,123,124,63,63,63,63,63,63,122,123,123,123,123,123,123,123,123,123,123,124,63,63,63,63,63,63,122,123,123,123,123,123,123,123,123,123,124,74,74,74,74
 </data>
  </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="47" name="coin" gid="152" x="180" y="288" width="18" height="18"/>
+  <object id="48" name="coin" gid="152" x="198" y="288" width="18" height="18"/>
+  <object id="49" name="coin" gid="152" x="216" y="288" width="18" height="18"/>
+  <object id="50" name="coin" gid="152" x="234" y="288" width="18" height="18"/>
+  <object id="51" name="coin" gid="152" x="252" y="288" width="18" height="18"/>
+  <object id="52" name="spawn" x="74.6667" y="150.667"/>
+  <object id="53" name="pow" gid="68" x="108" y="324" width="18" height="18"/>
+  <object id="55" name="wasser" gid="54" x="162" y="414" width="18" height="18"/>
+  <object id="56" name="wasser" gid="54" x="180" y="414" width="18" height="18"/>
+  <object id="57" name="wasser" gid="54" x="198" y="414" width="18" height="18"/>
+  <object id="58" name="wasser" gid="54" x="216" y="414" width="18" height="18"/>
+  <object id="59" name="wasser" gid="54" x="234" y="414" width="18" height="18"/>
+  <object id="60" name="wasser" gid="54" x="252" y="414" width="18" height="18"/>
+  <object id="61" name="wasser" gid="54" x="486" y="378" width="18" height="18"/>
+  <object id="62" name="wasser" gid="54" x="504" y="378" width="18" height="18"/>
+  <object id="63" name="wasser" gid="54" x="522" y="378" width="18" height="18"/>
+  <object id="64" name="wasser" gid="54" x="540" y="378" width="18" height="18"/>
+  <object id="65" name="wasser" gid="54" x="558" y="378" width="18" height="18"/>
+  <object id="66" name="wasser" gid="54" x="576" y="378" width="18" height="18"/>
+  <object id="67" name="wasser" gid="54" x="792" y="378" width="18" height="18"/>
+  <object id="68" name="wasser" gid="54" x="810" y="378" width="18" height="18"/>
+  <object id="69" name="wasser" gid="54" x="828" y="378" width="18" height="18"/>
+  <object id="70" name="wasser" gid="54" x="846" y="378" width="18" height="18"/>
+  <object id="71" name="wasser" gid="54" x="864" y="378" width="18" height="18"/>
+  <object id="72" name="wasser" gid="54" x="882" y="378" width="18" height="18"/>
+ </objectgroup>
 </map>

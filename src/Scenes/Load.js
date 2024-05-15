@@ -26,9 +26,13 @@ class Load extends Phaser.Scene {
         // The multiatlas was created using TexturePacker and the Kenny
         // Particle Pack asset pack.
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
+        this.load.spritesheet('tileStuff', 'tilemap_packed.png', { frameWidth: 18, frameHeight: 18 });
+        
+
     }
 
     create() {
+
         this.anims.create({
             key: 'walk',
             frames: this.anims.generateFrameNames('platformer_characters', {
@@ -50,6 +54,24 @@ class Load extends Phaser.Scene {
             ],
             repeat: -1
         });
+
+        this.anims.create({
+            key: 'coin',
+            defaultTextureKey: "tileStuff",
+            frames: [
+                { frame: 151 }, {frame: 152}
+            ],
+            repeat: -1
+        });
+        this.anims.create({
+            key: 'water',
+            defaultTextureKey: "tileStuff",
+            frames: [
+                { frame: 33 }, {frame: 53}
+            ],
+            repeat: -1
+        });
+        
 
         this.anims.create({
             key: 'jump',
